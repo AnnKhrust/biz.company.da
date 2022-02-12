@@ -268,7 +268,7 @@ p {
     /* outline: 1px solid rgba(116,86,34,.5); */
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    margin: 20px;
+    padding: 0 30px;
   }
   .white {
     color: white;
@@ -653,11 +653,6 @@ clip-path: polygon(45% 64%, 84% 14%, 100% 28%, 47% 100%, 0 49%, 15% 32%);
 .popup.open {
   opacity: 1;
   visibility: visible;
-}
-
-.popup.open .popup__content {
-  transform: perspective(600px) translate(0px 0%) rotateX(0deg);
-  opacity: 1;
 }
 
 .popup__body {
